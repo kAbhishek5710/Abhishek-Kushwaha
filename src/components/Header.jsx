@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <div className="flex justify-between items-center h-30 p-2 pb-3 px-8 mb-1 md:px-20 shadow-md">
+    <div className="flex justify-around items-center h-30 p-2 pb-3 px-8 mb-1 md:px-20 shadow-md">
       <Link to={"/"}>
         <div className="flex items-center gap-2 uppercase">
           <h1 className="text-slate-200 font-semibold text-2xl">
