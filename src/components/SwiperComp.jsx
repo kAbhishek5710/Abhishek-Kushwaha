@@ -5,8 +5,6 @@ import { Navigation } from "swiper/modules";
 import "swiper/css/bundle";
 import Project from "./Project";
 
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-
 export default function SwiperComp({ projects }) {
   SwiperCore.use([Navigation]);
   return (
