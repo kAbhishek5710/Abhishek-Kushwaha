@@ -5,6 +5,7 @@ import Education from "./Education";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Experience from "./Experience";
+import Contact from "./Contact";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Experience />
+      <Contact />
     </>
   );
 }
