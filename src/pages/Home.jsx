@@ -2,6 +2,8 @@ import React from "react";
 import bg from "../assets/bg3.mp4";
 import About from "./About";
 import Education from "./Education";
+import Skills from "./Skills";
+import Projects from "./Projects";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
       </video>
       <About />
       <Education />
+      <Skills />
+      <Projects />
     </>
   );
 }
