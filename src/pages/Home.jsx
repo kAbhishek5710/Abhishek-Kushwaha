@@ -1,6 +1,7 @@
 import React from "react";
 import bg from "../assets/bg3.mp4";
 import About from "./About";
+import Education from "./Education";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         Your browser does not support the video tag.
       </video>
       <About />
+      <Education />
     </>
   );
 }
