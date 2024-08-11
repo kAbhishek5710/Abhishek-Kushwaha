@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 export default function Project({ project }) {
   const tech = project.techStack;
-  console.log(tech);
   return (
     <div className="border rounded-lg p-2 md:p-4 backdrop-blur-md border-slate-400 shadow-red-200 shadow-md max-w-lg mx-auto md:max-w-3xl md:mx-auto">
       <Link to={project.live} target="_blank">
