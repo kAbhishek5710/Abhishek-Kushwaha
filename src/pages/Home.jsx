@@ -1,5 +1,6 @@
 import React from "react";
 import bg from "../assets/bg3.mp4";
+import About from "./About";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <source src={bg} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+      <About />
     </>
   );
 }
